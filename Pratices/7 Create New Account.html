@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Your Shoes - Log In or Sign Up</title>
+</head>
+
+<body style="background-color:#f5f5f5">
+    <h1>
+        <font color="red">In Your Shoes</font>
+    </h1>
+    <h2>Broaden your horizon and the world around you on In Your Shoes.</h2>
+    <form>
+        <div style="background-color:#ffffff">
+            <h1>Sign Up</h1>
+            <h4>
+                <font color="#858585">It’s quick and easy.</font>
+            </h4>
+            First name:<input type="text" name="First name">
+            Last name: <input type="text" name="Last name"><br />
+            Email: <input type="email" name="email"><br />
+            New password: <input type="password" name="New password">
+            <div>
+                Gender:
+                <input type="radio" name="gender" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="custom" checked>
+                <label for="custom">Custom</label>
+            </div>
+            Date Of Birth:
+            <select name="month" onChange="changeDate(this.options[selectedIndex].value);">
+                <option value="na">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            <select name="day" id="day">
+                <option value="na">Day</option>
+            </select>
+            <select name="year" id="year">
+                <option value="na">Year</option>
+            </select>
+            <script language="JavaScript" type="text/javascript">
+                function changeDate(i) 
+                {
+                    var e = document.getElementById('day');
+                    while (e.length > 0)
+                        e.remove(e.length - 1);
+                    var j = -1;
+                    if (i == "na")
+                        k = 0;
+                    else if (i == 2)
+                        k = 28;
+                    else if (i == 4 || i == 6 || i == 9 || i == 11)
+                        k = 30;
+                    else
+                        k = 31;
+                    while (j++ < k) 
+                    {
+                        var s = document.createElement('option');
+                        var e = document.getElementById('day');
+                        if (j == 0) 
+                        {
+                            s.text = "Day";
+                            s.value = "na";
+                            try 
+                            {
+                                e.add(s, null);
+                            } 
+                            catch (ex) 
+                            {
+                                e.add(s);
+                            }
+                        } 
+                        else 
+                        {
+                            s.text = j;
+                            s.value = j;
+                            try 
+                            {
+                                e.add(s, null);
+                            } 
+                            catch (ex) 
+                            {
+                                e.add(s);
+                            }
+                        }
+                    }
+                }
+                y = 1993;
+                while (y-- > 1940) 
+                {
+                    var s = document.createElement('option');
+                    var e = document.getElementById('year');
+                    s.text = y;
+                    s.value = y;
+                    try 
+                    {
+                        e.add(s, null);
+                    } 
+                    catch (ex) 
+                    {
+                        e.add(s);
+                    }
+                }
+            </script>
+            <h6>
+                <font color="#858585">By clicking Sign Up, you agree to our <a href="" target="_blank">Terms, Data
+                        Policy</a> and <a href="" target="_blank">Cookies Policy.</a>You may receive SMS Notifications
+                    from us and can opt out any time.
+                </font>
+            </h6>
+            <div>
+                <button type="submit" style="width:200px;height:40px;background-color:rgb(33, 185, 33);">
+                    <font color="#ffffff">Sign Up</font>
+                </button>
+            </div>
+        </div>
+        <form>
+</body>
+
+</html>
