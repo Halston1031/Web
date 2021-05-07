@@ -2,9 +2,9 @@
 -  <a href= "#1">Introduction</a>
 -  <a href= "#2">Wed Programming</a>
 -  <a href= "#3">HTML (Hypertext Markup Language)</a>
-        - Document Object Model (DOM)
-        - More HTML Elements
-        - Forms
+     - Document Object Model (DOM)
+     - More HTML Elements
+     - Forms
 -  <a href= "#4">CSS (Cascading Style Sheets)</a>
 -  <a href= "#5">Responsive Design</a>
 -  <a href= "#6">Bootstrap</a>
