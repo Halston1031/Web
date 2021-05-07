@@ -1,4 +1,4 @@
-![HTML](https://github.com/Halston1031/Web/blob/main/Pratices/Resources/CS50.jpeg)
+![HTML](https://github.com/Halston1031/Web/blob/main/Pratices/Resources/CS50x_web_4-modified.jpg)
 ## Description
 Record my learning process🧸
 ## Resources
