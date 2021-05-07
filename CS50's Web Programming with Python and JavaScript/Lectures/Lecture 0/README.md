@@ -33,6 +33,7 @@ In this course, you’ll need a text editor where you can write code locally on 
 
 
 <h2 id="3">HTML (Hypertext Markup Language)</h2>
+
 - HTML is a markup language that defines the structure of a web page. It is interpreted by your web browser (Safari, Google Chrome, Firefox, etc.) in order to display content on your screen.
 - Let’s get started by writing a simple HTML file!
 
@@ -64,6 +65,7 @@ In this course, you’ll need a text editor where you can write code locally on 
 <h2>Document Object Model (DOM)</h2>
 
 <img src = "../../Resources/Lecture0/dom.png"/>
+
 - The DOM is a convenient way of visualizing the way HTML elements relate to each other using a tree-like structure. Above is an example of the DOM layout for the page we just wrote.
 
 <h2>More HTML Elements</h2>
@@ -137,6 +139,7 @@ This page, when rendered, looks something like this:
 <img src = "../../Resources/Lecture0/elements.png"/>
 - In case you’re worried about it, know that you’ll never have to memorize these elements. It’s very easy to simply search something like “image in HTML” to find the img tag. One resource that’s especially helpful for learning about these elements is <a href = "https://www.w3schools.com/html/html_elements.asp">W3 Schools</a>.
 <h2>Forms</h2>
+
 - Another set of elements that is really important when creating a website is how to collect information from users. You can allow users to enter information using an HTML form, which can contain several different types of input. Later in the course, we’ll learn about how to handle information once a form has been submitted.
 - Just as with other HTML elements, there’s no need to memorize these, and W3 Schools is a great resource for learning about them!
 ```html
@@ -283,6 +286,7 @@ And our file called `styles.css` would look like:
 <html>
 ```
 <img src = "../../Resources/Lecture0/table0.png"/>
+
 - The above looks a lot like what we had before, but now, either by including a `style` tag or a `link` to a stylesheet in the head- element, we add the following css:
 
 ```css 
@@ -326,10 +330,13 @@ This is a good introduction into what are known as <a href="https://www.w3school
 1. In-line styling
 2. id
 3. class
-4. element type
+5. element type
 - In addition to the comma for multiple selectors, there are several other ways to specify which elements you would like to style. This table from lecture provides a few, and we’ll go through a few examples below:
 <img src = "../../Resources/Lecture0/selectors.png"/>
-**Descendant Selector**: Here, we use the descendant selector to only apply styling to list items found within an unordered list:
+
+**Descendant Selector**: Here, we use the descendant selector to only apply styling 
+to list items found within an unordered list:
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -357,9 +364,11 @@ This is a good introduction into what are known as <a href="https://www.w3school
     </body>
 <html>
 ```
+
 <img src = "../../Resources/Lecture0/selectors0.png"/>
 
 **Attributes as Selectors**: We can also narrow down our selection based on the attributes we assign to HTML elements using brackets. For example, in the following list of links, we choose to only make the link to Amazon red:
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -381,9 +390,12 @@ This is a good introduction into what are known as <a href="https://www.w3school
     </body>
 <html>
 ```
+
 <img src = "../../Resources/Lecture0/selectors2.png"/>
+
 - Not only can we use CSS to change what an element looks like permanently, but also what it looks like under certain conditions. For example, what if we wanted a button to change color when we hover over it? We can achieve this using a <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">CSS pseudoclass</a>, which provides additional styling during special circumstances. We write this by adding a colon after our selector, and then adding the circumstance after that colon.
 - In the case of the button, we would add `:hover` to the button selector to specify the design only when hovering:
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -410,7 +422,8 @@ This is a good introduction into what are known as <a href="https://www.w3school
     </body>
 <html>
 ```
-<img src = "../../Resources/Lecture0/buttons.png"/>
+
+<img src = "../../Resources/Lecture0/buttons.gif"/>
 
 <h2 id="5">Responsive Design</h2>
 
@@ -447,6 +460,7 @@ This is a good introduction into what are known as <a href="https://www.w3school
 </html>
 ```
 <img src = "../../Resources/Lecture0/responsive0.gif"/>
+
 - Another way to deal with differing screen size is using a new CSS attribute known as a <a href="https://www.w3schools.com/css/css3_flexbox.asp">flexbox</a>. This allows us to easily have elements wrap around to the next line if they don’t fit horizontally. We do this by putting all of our elements in a `div` that we’ll call our container. We then add some styling to that div specifying that we want to use a flexbox display for the elements inside of it. We’ve also added some additional styling to the inner divs to better illustrate the wrapping that’s occuring here.
 
 ```html
