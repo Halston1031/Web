@@ -333,7 +333,8 @@ This is a good introduction into what are known as <a href="https://www.w3school
 5. element type
 - In addition to the comma for multiple selectors, there are several other ways to specify which elements you would like to style. This table from lecture provides a few, and we’ll go through a few examples below:
 <img src = "../../Resources/Lecture0/selectors.png"/>
-__Descendant Selector__: Here, we use the descendant selector to only apply styling 
+
+**Descendant Selector**: Here, we use the descendant selector to only apply styling 
 to list items found within an unordered list:
 
 ```html
