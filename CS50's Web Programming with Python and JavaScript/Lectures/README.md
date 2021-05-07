@@ -6,7 +6,7 @@ Record course content🧸
 ## Learning From
 - <a href = "https://online-learning.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0"> CS50's Web Programming with Python and JavaScript</a>
 ## Lectures
-- Lecture 0
+- <a href="https://github.com/Halston1031/Web/tree/main/CS50's%20Web%20Programming%20with%20Python%20and%20JavaScript/Lectures/Lecture%200">Lecture 0</a>
 - Lecture 1
 - Lecture 2 
 - Lecture 3 
