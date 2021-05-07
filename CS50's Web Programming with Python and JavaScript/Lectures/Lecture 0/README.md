@@ -33,6 +33,7 @@ In this course, you’ll need a text editor where you can write code locally on 
 
 
 <h2 id="3">HTML (Hypertext Markup Language)</h2>
+
 - HTML is a markup language that defines the structure of a web page. It is interpreted by your web browser (Safari, Google Chrome, Firefox, etc.) in order to display content on your screen.
 - Let’s get started by writing a simple HTML file!
 
@@ -64,6 +65,7 @@ In this course, you’ll need a text editor where you can write code locally on 
 <h2>Document Object Model (DOM)</h2>
 
 <img src = "../../Resources/Lecture0/dom.png"/>
+
 - The DOM is a convenient way of visualizing the way HTML elements relate to each other using a tree-like structure. Above is an example of the DOM layout for the page we just wrote.
 
 <h2>More HTML Elements</h2>
@@ -137,6 +139,7 @@ This page, when rendered, looks something like this:
 <img src = "../../Resources/Lecture0/elements.png"/>
 - In case you’re worried about it, know that you’ll never have to memorize these elements. It’s very easy to simply search something like “image in HTML” to find the img tag. One resource that’s especially helpful for learning about these elements is <a href = "https://www.w3schools.com/html/html_elements.asp">W3 Schools</a>.
 <h2>Forms</h2>
+
 - Another set of elements that is really important when creating a website is how to collect information from users. You can allow users to enter information using an HTML form, which can contain several different types of input. Later in the course, we’ll learn about how to handle information once a form has been submitted.
 - Just as with other HTML elements, there’s no need to memorize these, and W3 Schools is a great resource for learning about them!
 ```html
