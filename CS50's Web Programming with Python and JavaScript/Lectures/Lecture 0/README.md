@@ -423,7 +423,7 @@ to list items found within an unordered list:
 <html>
 ```
 
-<img src = "../../Resources/Lecture0/buttons.png"/>
+<img src = "../../Resources/Lecture0/buttons.gif"/>
 
 <h2 id="5">Responsive Design</h2>
 
