@@ -16,12 +16,15 @@
 
 - <a href="https://git-scm.com">Git</a> is a command line tool that will help us with version control in several different ways:
     - Allowing us to keep track of changes we make to our code by saving snapshots of our code at a given point in time.
+
 <img src = "../../Resources/Lecture1/change_file.png"/>
 
 - Allowing us to easily synchronize code between different people working on the same project by allowing multiple people to pull information from and push information to a repository stored on the web.
+
 <img src = "../../Resources/Lecture1/mult_users.png"/>
-    - Allowing us to make changes to and test out code on a different branch without altering our main code base, and then merging the two together.
-    - Allowing us to revert back to earlier versions of our code if we realize we’ve made a mistake.
+
+   - Allowing us to make changes to and test out code on a different branch without altering our main code base, and then merging the two together.
+   - Allowing us to revert back to earlier versions of our code if we realize we’ve made a mistake.
 
 - In the above explanations, we used the word **repository**, which we haven’t explained yet. A Git repository is a file location where we’ll store all of the files related to a given project. These can either be remote (stored online) or local (stored on your computer).
 
@@ -98,11 +101,13 @@ But this could become problematic if we then discover a bug in our original code
 
 - The branch you are currently looking at is determined by the `HEAD`, which points to one of the two branches. By default, the HEAD is pointed at the master branch, but we can check out other branches as well.
 - Now, let’s get into how we actually implement branching in our git repositories:
-    1. Run `git branch` to see which branch you’re currently working on, which will have an asterisk to the left of its name.
+  1. Run `git branch` to see which branch you’re currently working on, which will have an asterisk to the left of its name.
 <img src = "../../Resources/Lecture1/git_branch.png"/>
 
 1. To make a new branch, we’ll run `git checkout -b <new branch name>`.
+
 <img src = "../../Resources/Lecture1/new_branch.png"/>
+
 1. Switch between branches using the command `git checkout <branch name>` and commit any changes to each branch.
 2. When we’re ready to merge our two branches together, we’ll check out the branch we wish to keep (almost always the master branch) and then run the command `git merge <other branch name>`. This will be treated similarly to a push or pull, and merge conflicts may appear. 
 
