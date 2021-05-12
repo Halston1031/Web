@@ -3,15 +3,15 @@
 
 ## Background
 
-<p>Recall from lecture that we can create an HTML form using a `<form>` tag and can add `<input>` tags to create input fields for that form. Later in the course, we’ll see how to write web applications that can accept form data as input. For this project, we’ll write forms that send data to an existing web server: in this case, Google’s.</p>
+Recall from lecture that we can create an HTML form using a `<form>` tag and can add `<input>` tags to create input fields for that form. Later in the course, we’ll see how to write web applications that can accept form data as input. For this project, we’ll write forms that send data to an existing web server: in this case, Google’s.
 
-<p>When you perform a Google search, as by typing in a query into Google’s homepage and clicking the “Google Search” button, how does that query work? Let’s try to find out.</p>
+When you perform a Google search, as by typing in a query into Google’s homepage and clicking the “Google Search” button, how does that query work? Let’s try to find out.
 
-<p>Navigate to https://www.google.com/, type in a query like “Harvard” into the search field, and click the “Google Search” button.</p>
+Navigate to https://www.google.com/, type in a query like “Harvard” into the search field, and click the “Google Search” button.
 
-<p>As you probably expected, you should see Google search results for “Harvard.” But now, take a look at the URL. It should begin with `https://www.google.com/search`, the route on Google’s website that allows for searching. But following the route is a `?`, followed by some additional information.</p>
+As you probably expected, you should see Google search results for “Harvard.” But now, take a look at the URL. It should begin with https://www.google.com/search, the route on Google’s website that allows for searching. But following the route is a `?`, followed by some additional information.
 
-<p>Those additional pieces of information in the URL are known as a query string. The query string consists of a sequence of GET parameters, where each parameter has a name and a value. Query strings are generally formatted as</p>
+Those additional pieces of information in the URL are known as a query string. The query string consists of a sequence of GET parameters, where each parameter has a name and a value. Query strings are generally formatted as
 
 ```
 field1=value1&field2=value2&field3=value3...
@@ -46,7 +46,7 @@ How did that work? In this case, the `action` attribute on the `form `told the b
 Your task in this project is to expand on this site, creating your own front end for Google Search, as by exploring Google’s interface to identify what GET parameters it expects and adding the necessary HTML and CSS to your website.
 
 ## Getting Started
-- Download the distribution code from <a href="https://cdn.cs50.net/web/2020/spring/projects/0/search.zip ">search.zip</a>and unzip it.
+- Download the distribution code from <a href="https://cdn.cs50.net/web/2020/spring/projects/0/search.zip ">search.zip</a> and unzip it.
 
 ## Specification
 Your website must meet the following requirements.
@@ -76,19 +76,18 @@ Consistent with Google’s own CSS, the “Advanced Search” button should be b
 
 1. Visit this link, log in with your GitHub account, and click Authorize cs50. Then, check the box indicating that you’d like to grant course staff access to your submissions, and click Join course.
 2. <a href="https://git-scm.com/downloads">Install Git</a> and, optionally, <a href="https://cs50.readthedocs.io/submit50/">install submit50</a>.
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<div class="alert alert-warning" role="alert">
-    <p>When you submit your project, the contents of your web50/projects/2020/x/search branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation (search or project0, for example). Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.</p>
-    <p>By way of example, for this project that means that if the grading staff visits https://github.com/me50/USERNAME/blob/web50/projects/2020/x/search/index.html (where USERNAME is your own GitHub username as provided in the form, below) your submission for index.html for this project should be what appears. If it doesn’t, reorganize your repository as needed to match this paradigm.</p>
-</div>
+   When you submit your project, the contents of your `web50/projects/2020/x/search` branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation (search or project0, for example). Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.
+    By way of example, for this project that means that if the grading staff visits https://github.com/me50/USERNAME/blob/web50/projects/2020/x/search/index.html (where USERNAME is your own GitHub username as provided in the form, below) your submission for index.html for this project should be what appears. If it doesn’t, reorganize your repository as needed to match this paradigm.
 
 3. If you’ve installed submit50, execute
 ```terminal
 submit50 web50/projects/2020/x/search
 ```
 Otherwise, using Git, push your work to 
-`https://github.com/me50/USERNAME.git`, where `USERNAME` is your GitHub username, on a branch called `web50/projects/2020/x/search`.
+https://github.com/me50/USERNAME.git, where `USERNAME` is your GitHub username, on a branch called `web50/projects/2020/x/search`.
+
 4. <a href="https://www.howtogeek.com/205742/how-to-record-your-windows-mac-linux-android-or-ios-screen/">Record a screencast</a> not to exceed 5 minutes in length, in which you demonstrate your project’s functionality. **Your URL bar must remain visible throughout your demonstration of the project.** Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. <a href= "https://www.youtube.com/upload">Upload that video to YouTube</a> (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. **This is not optional**, videos without timestamps in their description will be automatically rejected.
+
 5. Submit <a href="https://forms.cs50.io/306090c4-0e2a-4675-90e9-7845385e630b">this form.</a>
 
-<p>You can then go to <a href="https://cs50.me/cs50w">https://cs50.me/cs50w</a> to view your current progress!</p>
+<p>You can then go to https://cs50.me/cs50w to view your current progress!</p>
