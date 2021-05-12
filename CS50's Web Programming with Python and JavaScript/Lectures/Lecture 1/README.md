@@ -101,10 +101,10 @@ But this could become problematic if we then discover a bug in our original code
     1. Run `git branch` to see which branch you’re currently working on, which will have an asterisk to the left of its name.
 <img src = "../../Resources/Lecture1/git_branch.png"/>
 
-1. To make a new branch, we’ll run `git checkout -b <new branch name>`
+1. To make a new branch, we’ll run `git checkout -b <new branch name>`.
 <img src = "../../Resources/Lecture1/new_branch.png"/>
-    1. Switch between branches using the command `git checkout <branch name>` and commit any changes to each branch.
-    2. When we’re ready to merge our two branches together, we’ll check out the branch we wish to keep (almost always the master branch) and then run the command `git merge <other branch name>`. This will be treated similarly to a push or pull, and merge conflicts may appear. 
+1. Switch between branches using the command `git checkout <branch name>` and commit any changes to each branch.
+2. When we’re ready to merge our two branches together, we’ll check out the branch we wish to keep (almost always the master branch) and then run the command `git merge <other branch name>`. This will be treated similarly to a push or pull, and merge conflicts may appear. 
 
 
 <h3 id="7">More GitHub Features</h3>
